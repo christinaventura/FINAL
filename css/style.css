@@ -1,0 +1,216 @@
+@font-face {
+	font-family: 'Futura';
+		src: url('fonts/futura.ttc') format('tcc');
+
+	font-family: 'GillSans';
+		src: url('fonts/gillsans.ttc') format('tcc');
+
+	font-family: 'Helvetica';
+		src: url('fonts/helvetica.dfont') format('dfont');
+}
+
+/**NAVIGATION**/
+nav {
+	background-color: #009999;
+	padding-top: 10px;
+}
+
+/** NAV SPRITES **/
+
+#nav ul li {
+	margin: 0 auto;
+	display: inline-block;
+	list-style: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#nav ul li.about {
+	width: 216px;
+	height: 80px;
+	background:url(../images/sprites/nav.png) 0px 0px;
+	}
+
+	#nav ul li.about a:hover{
+		background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+	#nav ul li.about a.selected{
+			background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+	
+
+#nav ul li.music {
+	width: 216px;
+	height: 80px;
+	background:url(../images/sprites/nav.png) -216px 0px;
+	}
+
+	#nav ul li.music a:hover{
+		background:url("../images/sprites/navsprite.png") -216px -100px;
+			}
+	#nav ul li.music a.selected{
+			background:url("../images/sprites/navsprite.png") -216px -100px;
+			}
+
+#nav ul li.film {
+	width: 216px;
+	height: 80px;
+background:url(../images/sprites/nav.png) -432px 0px;
+}
+
+	#nav ul li.film a:hover{
+		background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+	#nav ul li.film a.selected{
+			background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+
+#nav ul li.tv {
+	width: 108px;
+	height: 80px;
+background:url(../images/sprites/nav.png) -648px 0px;
+}
+
+	#nav ul li.tv a:hover{
+		background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+	#nav ul li.tv a.selected{
+			background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+
+#nav ul li.playlists {
+	width: 168px;
+	height: 80px;
+background:url(../images/sprites/nav.png) -792px 0px;
+}
+
+	#nav ul li.playlists a:hover{
+		background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+	#nav ul li.playlists a.selected{
+			background:url("../images/sprites/navsprite.png") -250px -145px;
+			}
+
+/**GENERAL**/
+
+body {
+	font-family: 'Helvetica';
+	font-size: 12pt;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Futura';
+	font-size: 16pt;
+}
+
+h2 {
+	font-family: 'GillSans';
+	font-size: 60pt;
+	color: #fff;
+	font-weight: normal;
+	padding-left: 30px;
+}
+
+h3 {
+	font-family: 'GillSans'
+	font-size: 50pt;
+	font-weight: normal;
+}
+
+h4 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Futura'
+	font-size: 40pt;
+}
+
+a {
+	color: #ff3366;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/**BODY**/
+
+#banner {
+	padding: 20px;
+}
+
+.feature {
+	margin: 20px;
+}
+
+.colorbox {
+	padding-top: 20px;
+	background-color: #00cc66;
+}
+
+/** GENERAL **/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/**CONTACT-SUBSCRIBE SPRITES**/
+
+#contactSubscribe ul li {
+	margin: 0 auto;
+	display: inline-block;
+	list-style: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#contactSubscribe ul li.contact {
+	width: 470px;
+	height: 70px;
+	background:url(../images/sprites/contactsubscribe.png) 0px 0px;
+}
+
+#contactSubscribe ul li.subscribe {
+	width: 470px;
+	height: 70px;
+	background:url(../images/sprites/contactsubscribe.png) 480px 0px;
+}
+
+/**FOOTER**/
+
+footer {
+	padding-top: 70px;
+}
+
+/** FOOTER SPRITES **/
+
+#socialMedia ul li {
+	margin: 0 auto;
+	display: inline-block;
+	list-style: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#socialMedia ul li.home {
+	width: 576px;
+	height: 100px;
+	background:url(../images/sprites/footer.png) 0px 0px;
+	}
+
+#socialMedia ul li.facebook {
+	width: 140px;
+	height: 100px;
+	background:url(../images/sprites/footer.png) 300px 0px;
+	}
+
+#socialMedia ul li.twitter {
+	width: 140px;
+	height: 100px;
+background:url(../images/sprites/footer.png) 140px 0px;
+}

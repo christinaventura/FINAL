@@ -99,6 +99,10 @@ body {
 	font-size: 12pt;
 }
 
+p {
+	line-height: 1.5;
+}
+
 h1 {
 	margin: 0;
 	font-family: 'Futura';
@@ -139,11 +143,12 @@ a {
 }
 
 .feature {
-	margin: 20px;
+	padding-top: 20px;
 }
 
 .colorbox {
 	padding-top: 20px;
+	border: 20px;
 	background-color: #00cc66;
 }
 
